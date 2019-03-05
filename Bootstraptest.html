@@ -7,21 +7,26 @@
 </head>
 
 <body>
-	
-<small>默认强调</small><br>
-<strong>加粗字体</strong><br>
-<em>斜体</em><br>
-<p class="lead">引导主体副本</p>
-<p class="text-left">向左对齐文本</p>
-<p class="text-center">居中对齐文本</p>
-<p class="text-right">向右对齐文本</p>
-<p class="text-muted">本行内容是减弱的</p>
-<p class="text-primary">本行内容带有一个 primary class</p>
-<p class="text-success">本行内容带有一个 success class</p>
-<p class="text-info">本行内容带有一个 info class</p>
-<p class="text-warning">本行内容带有一个 warning class</p>
-<p class="text-danger">本行内容带有一个 danger class</p>
+<h4>Normal:</h4>
+	<p>&lt;h1&gt;This is a title&lt;/h1&gt;</p>
+<h4>Code（显示代码）:</h4>
+	<p><code>&lt;h1&gt;This is a title&lt;/h1&gt;</code></p>
+<h4>Pre（独立显示代码）:</h4>
+	<pre>&lt;h1&gt;This a title&lt;/h1&gt;</pre>
+<h4>Var:x=ab+y（显示变量）</h4>	
+<p><var>x</var> = <var>a</var><var>b</var> + <var>y</var></p>
+<h4>Kbd（按键提示）:</h4>
+<p>使用 <kbd>ctrl + p</kbd> 来打开打印窗口。</p>
+<h4>pre class="pre-scrollable"（带有滚动条的独立显示代码段）:</h4>
+<pre class="pre-scrollable">在 pre 元素中的文本
+	宽度的显示与文本的宽度一样，
+	保留了  空  格 和
+
+	换行。</pre>
+<h4>Samp（电脑程序输出）:</h4>	
+<p><samp>This text is output from a computer program....</samp></p>
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
+	
 </html>
