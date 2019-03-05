@@ -7,24 +7,113 @@
 </head>
 
 <body>
-<h4>Normal:</h4>
-	<p>&lt;h1&gt;This is a title&lt;/h1&gt;</p>
-<h4>Code（显示代码）:</h4>
-	<p><code>&lt;h1&gt;This is a title&lt;/h1&gt;</code></p>
-<h4>Pre（独立显示代码）:</h4>
-	<pre>&lt;h1&gt;This a title&lt;/h1&gt;</pre>
-<h4>Var:x=ab+y（显示变量）</h4>	
-<p><var>x</var> = <var>a</var><var>b</var> + <var>y</var></p>
-<h4>Kbd（按键提示）:</h4>
-<p>使用 <kbd>ctrl + p</kbd> 来打开打印窗口。</p>
-<h4>pre class="pre-scrollable"（带有滚动条的独立显示代码段）:</h4>
-<pre class="pre-scrollable">在 pre 元素中的文本
-	宽度的显示与文本的宽度一样，
-	保留了  空  格 和
+<div class="container">
+	<h3>表格1</h3>
+	<p> .table 为任意表格添加基本样式 (只有横向分隔线):</p>            
+	<table class="table">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Firstname</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Anna</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Debbie</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>John</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+	
+<div class="container">
+	<h3>表格2</h3>
+	<p> .table-bordered 类为所有表格的单元格添加边框:</p>                        
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Firstname</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Anna</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Debbie</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>John</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+	
+<div class="container">
+	<h3>表格3</h3>
+	<p> .table-condensed 类让表格更加紧凑:</p>                                    
+	<table class="table table-condensed">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Firstname</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Anna</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Debbie</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>John</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 
-	换行。</pre>
-<h4>Samp（电脑程序输出）:</h4>	
-<p><samp>This text is output from a computer program....</samp></p>
+<div class="container">
+	<h3>表格4</h3>    
+	<p> .table-striped 类在 tbody 内添加斑马线形式的条纹 ( IE8 不支持):</p>                  
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Firstname</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Anna</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Debbie</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>John</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
