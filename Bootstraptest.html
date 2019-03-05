@@ -8,8 +8,12 @@
 
 <body>
 <div class="container">
-	<h3>表格1</h3>
-	<p> .table 为任意表格添加基本样式 (只有横向分隔线):</p>            
+	<h2>tr,td,th类</h2>
+	<p> .active 类将悬停的颜色应用在行或者单元格上:</p>   
+	<p> .success 类表示执行成功的操作：</p> 
+	<p> .info 类表示信息变化的操作:</p>
+	<p> .warning 类表示一个警告操作:</p>
+	<p> .danger 类表示一个危险的操作:</p> 
 	<table class="table">
 		<thead>
 			<tr>
@@ -18,98 +22,25 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
+			<tr class="active">
 				<td>1</td>
-				<td>Anna</td>
+				<td>active</td>
 			</tr>
-			<tr>
+			<tr class="success">
 				<td>2</td>
-				<td>Debbie</td>
+				<td>success</td>
 			</tr>
-			<tr>
+			<tr class="info">
 				<td>3</td>
-				<td>John</td>
+				<td>info</td>
 			</tr>
-		</tbody>
-	</table>
-</div>
-	
-<div class="container">
-	<h3>表格2</h3>
-	<p> .table-bordered 类为所有表格的单元格添加边框:</p>                        
-	<table class="table table-bordered">
-		<thead>
-			<tr>
-				<th>#</th>
-				<th>Firstname</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Anna</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Debbie</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>John</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-	
-<div class="container">
-	<h3>表格3</h3>
-	<p> .table-condensed 类让表格更加紧凑:</p>                                    
-	<table class="table table-condensed">
-		<thead>
-			<tr>
-				<th>#</th>
-				<th>Firstname</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Anna</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Debbie</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>John</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-
-<div class="container">
-	<h3>表格4</h3>    
-	<p> .table-striped 类在 tbody 内添加斑马线形式的条纹 ( IE8 不支持):</p>                  
-	<table class="table table-striped">
-		<thead>
-			<tr>
-				<th>#</th>
-				<th>Firstname</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Anna</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Debbie</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>John</td>
+			<tr class="warning">
+				<td>4</td>
+				<td>warning</td>
+			</tr>	
+			<tr class="danger">
+				<td>5</td>
+				<td>danger</td>
 			</tr>
 		</tbody>
 	</table>
