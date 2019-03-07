@@ -1,0 +1,25 @@
+New class and attribute.
+1.navbar导航条
+navbar-inverse：创建一个带有黑色背景白色文本的反色的导航栏；
+eg:<div class="navbar navbar-fixed-top navbar-inverse">
+2.role增强语义性；
+eg:<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+3.collapse折叠插件
+class           description
+.collapse       隐藏内容
+.collapse .in   显示内容
+.collapsing     过渡效果开始时被添加，完成时被移除
+eg:
+<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+简单的可折叠组件
+</button>
+    <div class="collapse" id="demo">
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+        vice lomo.
+    </div>
+demo部分属性为collapse,其内容被隐藏；若改成class="collapse in"，其内容将被显示出来。
+4.data-toggle="collapse" data-target=".navbar-collapse"
+data-toggle指以什么事件触发
+data-target指事件的目标
+data-toggle和data-target一起使用就是代表data-target所指的元素以data-toggle指定的形式显示
