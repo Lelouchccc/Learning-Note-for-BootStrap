@@ -8,74 +8,45 @@
 
 <body>
 	
-
-<div style="padding: 100px 100px 10px;">
-    <form class="bs-example bs-example-form" role="form">
-        <div class="input-group input-group-lg">
-            <span class="input-group-addon">@</span>
-            <input type="text" class="form-control" placeholder="twitterhandle">
-        </div>
-        <br>
-        <div class="input-group">
-            <input type="text" class="form-control">
-            <span class="input-group-addon">.00</span>
-        </div>
-        <br>
-        <div class="input-group input-group-sm">
-            <span class="input-group-addon">$</span>
-            <input type="text" class="form-control">
-            <span class="input-group-addon">.00</span>
-        </div>
-    </form>
-</div>
+<p>标签式导航</p>
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#">Home</a></li>	
+	<li><a href="#">Java</a></li>
+	<li><a href="#">Python</a></li>
+	<li><a href="#">C++</a></li>
+</ul>
 	
-	<div style="padding: 100px 100px 10px;">
-    <form class="bs-example bs-example-form" role="form">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <span class="input-group-addon">
-                        <input type="checkbox"></span>
-                    <input type="text" class="form-control">
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-            <br>
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <span class="input-group-addon">
-                        <input type="radio"></span>
-                    <input type="text" class="form-control">
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-    </form>
-</div>
+<p>胶囊式导航，禁用链接</p>
+<ul class="nav nav-pills">
+	<li class="active"><a href="#">Home</a></li>	
+	<li class="disabled"><a href="#">Java（禁用链接）</a></li>
+	<li><a href="#">Python</a></li>
+	<li><a href="#">C++</a></li>
+</ul>
 	
+<p>垂直胶囊式导航</p>
+<ul class="nav nav-pills nav-stacked">
+	<li class="active"><a href="#">Home</a></li>	
+	<li><a href="#">Java</a></li>
+	<li><a href="#">Python</a></li>
+	<li><a href="#">C++</a></li>
+</ul>
 	
-<div style="padding: 100px 100px 10px;">
-    <form class="bs-example bs-example-form" role="form">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                    <input type="text" class="form-control">
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-            <br>
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <input type="text" class="form-control">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                </div><!-- /input-group -->
-            </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-    </form>
-</div>
-	
+<p>两端对齐胶囊式导航，下拉菜单</p>
+<ul class="nav nav-pills nav-justified">
+	<li class="active"><a href="#">Home</a></li>	
+	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Java <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="#">Java-1</a></li>
+		<li><a href="#">Java-2</a></li>
+		<li><a href="#">Java-3</a></li>
+		<li class="divider"></li>
+		<li><a href="#">分离的链接</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Python</a></li>
+	<li><a href="#">C++</a></li>
+</ul>
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
