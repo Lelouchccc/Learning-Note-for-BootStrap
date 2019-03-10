@@ -8,41 +8,40 @@
 
 <body>
 	
-<p>默认导航栏</p>
+<p>分页.pagination</p>
 	
-<nav class="navbar navbar-default" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Automation</a>
-		</div>
-		
-		<div>
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">Photos</a></li>
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Place</a></li>
-					<li><a href="#">Time</a></li>
-					<li><a href="#">Event</a></li>
-					<li class="divider"></li>
-					<li><a href="#">分离的链接</a></li>
-					<li class="divider"></li>
-					<li><a href="#">另一个分离的链接</a></li>
-				</ul>
-			</li>
-		</ul>
-		</div>
-	</div>
-</nav>
-
-<p>面包屑导航</p>
-<ul class="breadcrumb">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">2013</a></li>
-    <li class="active">十一月</li>
+<ul class="pagination">
+	<li><a href="#">&laquo;</a></li>	
+	<li><a href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li class="disabled"><a href="#">4</a></li>
+	<li class="active"><a href="#">5</a></li>
+	<li><a href="#">&raquo;</a></li>
 </ul>
+<p>大分页.pagination-lg</p>
+<ul class="pagination pagination-lg">
+	<li><a href="#">&laquo;</a></li>	
+	<li><a href="#">1</a></li>
+	<li><a href="#">2</a></li>
+	<li><a href="#">3</a></li>
+	<li><a href="#">4</a></li>
+	<li><a href="#">5</a></li>
+	<li><a href="#">&raquo;</a></li>
+</ul>
+<br>
+<p>翻页.pager</p>
+<ul class="pager">
+	<li><a href="#">Previous Page</a></li>
+	<li><a href="#">Next Page</a></li>
+</ul>
+<p>.previous左对齐，.next右对齐</p>
+<ul class="pager">
+	<li class="previous"><a href="#">Previous Page</a></li>
+	<li class="next"><a href="#">Next Page</a></li>
+	<li class="previous"><a href="#">Previous2.0</a></li>
+</ul>
+
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
