@@ -9,13 +9,21 @@
 <body>
 	
 	
-<h4>胶囊式导航,徽章（用于显示未读消息数）</h4>
-<ul class="nav nav-pills">
-	<li class="active"><a href="#">Home</a></li>	
-	<li><a href="#">Java<span class="badge">24</span></a></li>
-	<li><a href="#">Python<span class="badge">18</span></a></li>
-	<li><a href="#">C++<span class="badge">7</span></a></li>
-</ul>
+<div class="container">
+	<div class="jumbotron">
+	<h1>Welcome!</h1>
+	<p>This is a jumbotron（jumbotron在container内）</p>
+	<p><a class="btn btn-primary">Learn more</a></p>
+	</div>	
+</div>
+	
+<div class="jumbotron">
+	<div class="container">
+	<h1>Welcome!</h1>
+	<p>This is a jumbotron（jumbotron在container外，占用全部宽度，不带圆角的jumbotron）</p>
+	<p><a class="btn btn-primary">Learn more</a></p>
+	</div>	
+</div>
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
