@@ -7,23 +7,57 @@
 </head>
 
 <body>
-	
-	
+
+<p>普通的alert</p>	
 <div class="container">
-	<div class="jumbotron">
-	<h1>Welcome!</h1>
-	<p>This is a jumbotron（jumbotron在container内）</p>
-	<p><a class="btn btn-primary">Learn more</a></p>
-	</div>	
+	<div class="alert alert-danger">Danger</div>	
+	<div class="alert alert-info">Information</div>
+	<div class="alert alert-success">Success</div>
+	<div class="alert alert-warning">Warning</div>
 </div>
 	
-<div class="jumbotron">
-	<div class="container">
-	<h1>Welcome!</h1>
-	<p>This is a jumbotron（jumbotron在container外，占用全部宽度，不带圆角的jumbotron）</p>
-	<p><a class="btn btn-primary">Learn more</a></p>
-	</div>	
+<p>alert中的链接:alert-link</p>	
+<div class="container">
+	<div class="alert alert-danger"><a href="#" class="alert-link">Danger</a></div>	
+	<div class="alert alert-info"><a href="#" class="alert-link">Information</a></div>
+	<div class="alert alert-success"><a href="#" class="alert-link">Success</a></div>
+	<div class="alert alert-warning"><a href="#" class="alert-link">Warning</a></div>
 </div>
+
+<p>可取消的alert:.alert-dismissable</p>
+<p>close 是一个 CSS class,用于为模态窗口的关闭按钮设置样式。</p>
+<div class="alert alert-success alert-dismissable">
+	<button type="button" class="close" data-dismiss="alert"
+	aria-hidden="true">
+	&times;
+	</button>
+	Success（可取消）
+</div>
+	
+<div class="alert alert-info alert-dismissable">
+	<button type="button" class="close" data-dismiss="alert"
+	aria-hidden="true">
+	&times;
+	</button>
+	Infomartion（可取消）
+</div>
+	
+<div class="alert alert-warning alert-dismissable">
+	<button type="button" class="close" data-dismiss="alert"
+	aria-hidden="true">
+	&times;
+	</button>
+	Warning（可取消）
+</div>	
+	
+<div class="alert alert-danger alert-dismissable">
+	<button type="button" class="close" data-dismiss="alert"
+	aria-hidden="true">
+	&times;
+	</button>
+	Danger（可取消）
+</div>
+	
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
