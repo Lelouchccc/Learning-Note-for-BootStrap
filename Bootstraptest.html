@@ -8,46 +8,24 @@
 
 <body>
 	
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h2 class="panel-title">This is a primary panel title</h2>
-	</div>
-	<div class="panel-body">This is a primary panel body.</div>	
-	<div class="panel-footer">This is a primary panel footer(面板脚注)</div>
+<h2>Modal Exercise</h2>
+<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal1">Open my Modal</button>
+<div class="modal" id="Modal1" tabindex="-1" role="dialog"  aria-labelledby="Modal1title" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="Modal1title">My modal title</h4>
+			</div>
+			<div class="modal-body">Body of my modal</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-info">Submit</button>
+			</div>
+		</div>	
+	</div>	
 </div>
 	
-<div class="panel panel-info">
-	<div class="panel-heading">
-		<h2 class="panel-title">This is an info panel title</h2>
-	</div>	
-	<div class="panel-body">This is an info panel body.</div>
-	<div class="panel-footer">This is a info panel footer</div>
-</div>
-
-<div class="panel panel-success">
-	<div class="panel-heading">
-		<h2 class="panel-title">This is an success panel title</h2>
-	</div>	
-	<div class="panel-body">This is an success panel body.</div>
-	<table class="table">
-	<th>产品</th><th>价格 </th>
-	<tr><td>产品 A</td><td>200</td></tr>
-	<tr><td>产品 B</td><td>400</td></tr>
-	</table>
-</div>	
-
-	
-<div class="panel panel-success">
-	<div class="panel-heading">
-		<h2 class="panel-title">This is an success panel title</h2>
-	</div>	
-
-	<table class="table">
-	<th>产品</th><th>价格 </th>
-	<tr><td>产品 A</td><td>200</td></tr>
-	<tr><td>产品 B</td><td>400</td></tr>
-	</table>
-</div>
 	<script src="jquery/jquery-3.3.1.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
